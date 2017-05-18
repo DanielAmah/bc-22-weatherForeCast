@@ -1,11 +1,11 @@
 {
   "name": "bc-22-weatherforecast",
   "version": "1.0.0",
-  "description": "",
+  "description": "Weather App",
   "main": "server.js",
   "scripts": {
    "test": "jasmine",
-	 "start": "node server.js"
+ "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,6 @@
   "homepage": "https://github.com/DanielAmah/bc-22-weatherForeCast#readme",
   "devDependencies": {
     "jasmine": "^2.6.0",
-	  "body-parser": "^1.17.1",
     "express": "~4.9.8",
     "firebase": "^3.9.0"
   }
