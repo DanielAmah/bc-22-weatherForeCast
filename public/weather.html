@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Current Weather Application</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">MyWeather</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div id="aside">
+            <div id="search">
+                <h3>Recent Weather Search</h3>
+                Result here
+            </div>
+
+            <div id="GeoWeather">
+                <h3>Your weather</h3>
+                <div class="main-container">
+                    <div id="current-weather" class="container-fluid" style="background-color: wheat;">
+                        <h2 id="current" class="current-weather">Your Weather: <br><span id="local-city">"City here"</span></h2>
+                        <h3><span><a id="temperature" href=#></a></span><img id="weatherIcon"></img>
+                        </h3>
+                        <h4 id="descriptor">Description</h4>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div id="main">
+
+
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search" id="city">
+                <div class="input-group-btn">
+                    <button id="submitWeather" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+                </div>
+            </div>
+
+
+
+				<br><br><br>
+
+
+
+            <div class="main-container">
+                    <div id="current-weather" class="container-fluid" style="background-color: wheat; border-radius="2px">
+                        <h2 id="current" class="current-weather">Current weather: <br><span id="cityName">N/A</span></h2>
+                        <h3><span><a id="temp" href=#></a></span>
+                        </h3>
+                        <h4 id="description">Description</h4>
+                    </div>
+                </div>
+
+            <div id="showWeather"></div>
+
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="geoweather.js"></script>
+    <script src="weather.js"></script>
+</body>
+
+</html>
