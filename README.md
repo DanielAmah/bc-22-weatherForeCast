@@ -1,1 +1,1 @@
-# bc-22-weatherForeCast
+# bc-22-WeatherForecastApp

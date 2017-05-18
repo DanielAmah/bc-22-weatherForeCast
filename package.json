@@ -1,0 +1,30 @@
+{
+  "name": "bc-22-weatherforecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+   "test": "jasmine",
+	 "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielAmah/bc-22-weatherForeCast.git"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "author": "Daniel Amah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanielAmah/bc-22-weatherForeCast/issues"
+  },
+  "homepage": "https://github.com/DanielAmah/bc-22-weatherForeCast#readme",
+  "devDependencies": {
+    "jasmine": "^2.6.0",
+	  "body-parser": "^1.17.1",
+    "express": "~4.9.8",
+    "firebase": "^3.9.0"
+  }
+}
